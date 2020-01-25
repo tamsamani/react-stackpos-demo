@@ -1,0 +1,9 @@
+{
+  "ID": {
+    "type": "Number",
+    "validation": {
+      ">" : 0
+    }
+  },
+  "Name": "String"
+}
