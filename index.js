@@ -1,6 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
 
+import {Icon} from "@mdi/react";
+import { mdiAccount } from '@mdi/js'
+
 import "./index.scss";
 
 
@@ -26,6 +29,13 @@ function App() {
         Name only
       </div>
       <Signature />
+
+      <div className="bg-red-100" >
+        <div>
+          <Icon path={mdiAccount} size={1}  />
+        </div>
+        Nice We have something
+      </div>
     </div>
   );
 }
