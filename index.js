@@ -79,7 +79,7 @@ function App() {
               fill="#5454f1"
               opacity={0.15}
             />
-            <text width={240} font-size="16">
+            <text width={240} fontSize="16">
               <textPath xlinkHref="#circlePath2" startOffset={60}>
                 Hire to GET the Updates
               </textPath>
